@@ -1,0 +1,29 @@
+{
+  "name": "tekion-pm2-content-generation-mvp",
+  "version": "1.0.0",
+  "description": "Production-ready MVP for Guardrailed AI Content Generation with Human-in-the-Loop review, cost tracking, and mock adapters.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "sample": "node sample_runner.js"
+  },
+  "keywords": [
+    "ai",
+    "guardrails",
+    "express",
+    "sqlite3",
+    "hitl",
+    "cost-tracking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^3.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7",
+    "uuid": "^11.0.5"
+  }
+}
