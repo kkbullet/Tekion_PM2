@@ -204,12 +204,4 @@ npm install
    ```
 
 ---
-
-## Testing Guardrails via the UI
-
-The web interface includes automated presets in the **Automated Test Triggers** bar:
-1. **▶ Run 3 Topics Batch Demo**: Generates all three sample topics simultaneously.
-2. **Test Injection Defense**: Sends an instruction override attempt to trigger Guardrail 3.
-3. **Test Gibberish Filter**: Sends repetitive consonant keystroke mashing to trigger Guardrail 2.
-4. **Preset: EV Solid State**: Loads a pre-configured topic into the form.
 5. **Reset Spend**: Resets today's spend counter to test daily spend thresholds.
